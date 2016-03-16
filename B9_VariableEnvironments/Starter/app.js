@@ -1,7 +1,6 @@
 function b() {
     var myVar = 3; //fifth - new myVar is declared within scope of function b
     console.log(myVar);
-    return myVar;
 }
 
 function a() {
