@@ -1,0 +1,1 @@
+window.libraryName = window.libraryName || "Lib 2"; //checks global namespace if libraryName exists, and if not it is set to "Lib 2"
