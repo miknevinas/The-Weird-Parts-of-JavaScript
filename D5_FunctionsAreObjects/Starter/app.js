@@ -9,3 +9,4 @@ console.log(greet.language); //Prints 'english'
 
 //Name property = greet
 //Code property = console.log('Hi');
+//
