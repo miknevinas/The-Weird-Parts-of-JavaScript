@@ -1,3 +1,5 @@
+//Call, apply and bind are built-in methods on the function object
+
 var person = {
     firstname: 'Adam',
     lastname: 'McNevin',
