@@ -25,11 +25,11 @@ function buildFunctions2() {
     for (var i = 0; i < 3; i++) {
         arr.push(
             //immediately invoking the functions as they're created allows for the proper index to be printed for each call
-            (function(j) {
+            (function(j) { //j preserves the value of i
                 return function() {
                     console.log(j);
                 }
-            }(i))
+            }(i)) //the index is passed into the anonymous function and printed as each parent function is added to the array
         )
     }
     return arr;
