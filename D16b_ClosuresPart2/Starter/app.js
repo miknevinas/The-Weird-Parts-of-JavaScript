@@ -40,4 +40,3 @@ var functions2 = buildFunctions2();
 functions2[0](); 
 functions2[1](); 
 functions2[2]();
-
